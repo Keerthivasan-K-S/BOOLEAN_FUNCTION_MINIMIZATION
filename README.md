@@ -37,16 +37,22 @@ Developed by: Keerthivasan K S
 RegisterNumber: 212224230120
 
 ```.py
-module Exp_2(A,B,C,D,F1);
-input A,B,C,D;
-output F1;
-wire x1,x2,x3,x4,x5;
-assign x1=(~A)&(~B)&(~C)&(~D);
-assign x2=(A)&(~C)&(~D);
-assign x3=(~B)&(C)&(~D);
-assign x4=(~A)&(B)&(C)&(D);
-assign x5=(B)&(~C)&(D);
-assign F1=x1|x2|x3|x4|x5;
+module exp_2(A, B,C,D,W,X,Y,Z,F1,F2);
+input A, B, C,D,W,X,Y,Z;
+wire w1,w2,w3,w4,w5,w6,w7,w8,w9,w10;
+output F1,F2;
+assign w1=(~A)&(~B)&(~C)&(~D);
+assign w2=(A)&(~C)&(~D);
+assign w3=(~B)&(C)&(~D);
+assign w4=(~A)&(B)&(C)&(D);
+assign w5=(B)&(~C)&(D);
+assign w6=(X)&(~Y)&(Z);
+assign w7=(~X)&(~Y)&(Z);
+assign w8=(~W)&(X)&(Y);
+assign w9=(W)&(~X)&(Y);
+assign w10=(W)&(X)&(Y);
+assign F1=w1|w2|w3|w4|w5;
+assign F2=w6|w7|w8|w9|w10;
 endmodule
 ```
 
@@ -54,10 +60,10 @@ endmodule
 ## Output:
 
 ## RTL
-<img width="433" height="446" alt="image" src="https://github.com/user-attachments/assets/7700bdcd-5716-45b5-90b2-d5b3af23acf9" />
+![WhatsApp Image 2025-11-13 at 14 11 38_0f6d681d](https://github.com/user-attachments/assets/34220cc6-5d6e-4ca1-a1c1-5b50494fa0b9)
 
 ## Timing Diagram
-<img width="1041" height="532" alt="image" src="https://github.com/user-attachments/assets/b7280afd-2f41-4ace-b088-928778da2579" />
+![WhatsApp Image 2025-11-13 at 14 12 00_1a30791d](https://github.com/user-attachments/assets/98bd640a-a7dc-46eb-ba04-92d9ad587716)
 
 ## Result:
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
