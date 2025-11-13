@@ -63,7 +63,7 @@ endmodule
 ![WhatsApp Image 2025-11-13 at 14 11 38_0f6d681d](https://github.com/user-attachments/assets/34220cc6-5d6e-4ca1-a1c1-5b50494fa0b9)
 
 ## Timing Diagram
-![WhatsApp Image 2025-11-13 at 14 12 00_1a30791d](https://github.com/user-attachments/assets/98bd640a-a7dc-46eb-ba04-92d9ad587716)
+![WhatsApp Image 2025-11-13 at 14 12 00_9ad65bd2](https://github.com/user-attachments/assets/5f8602ab-97fc-4324-8f27-83522c6179ce)
 
 ## Result:
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
